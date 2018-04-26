@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDeepSkyBlue"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context="com.snownaul.studyguide.Activities.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/logo"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+
+            android:textSize="@dimen/txt_stitle"
+            android:text="@string/app_name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/bigger_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_id"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/txt_tiny"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/et_height"
+            android:background="@color/colorWhite"
+            android:paddingRight="@dimen/normal_padding"
+            android:paddingLeft="@dimen/normal_padding"
+            android:lines="1"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/small_padding"
+            android:textSize="@dimen/txt_text"
+            android:textColor="@color/colorDeepGray"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/normal_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_psw"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/txt_tiny"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/et_height"
+            android:background="@color/colorWhite"
+            android:paddingRight="@dimen/normal_padding"
+            android:paddingLeft="@dimen/normal_padding"
+            android:lines="1"
+            android:inputType="textPassword"
+            android:textSize="@dimen/txt_text"
+            android:textColor="@color/colorDeepGray"
+            android:layout_marginTop="@dimen/small_padding"
+            />
+
+        <Button
+            android:layout_marginTop="@dimen/big_padding"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/et_height"
+            android:background="@color/colorDeepGray"
+            android:textSize="@dimen/txt_tiny"
+            android:text="@string/login_continue"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_marginTop="@dimen/bigger_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <ImageView
+                android:layout_width="@dimen/big_icon"
+                android:layout_height="@dimen/big_icon"
+                android:src="@drawable/ic_fb"/>
+            <ImageView
+                android:layout_marginRight="@dimen/normal_padding"
+                android:layout_marginLeft="@dimen/normal_padding"
+                android:layout_width="@dimen/big_icon"
+                android:layout_height="@dimen/big_icon"
+                android:onClick="clickKakao"
+                android:src="@drawable/ic_kakao"/>
+            <ImageView
+                android:layout_width="@dimen/big_icon"
+                android:layout_height="@dimen/big_icon"
+                android:src="@drawable/ic_google"/>
+            <com.kakao.usermgmt.LoginButton
+                android:id="@+id/kakao_loginbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/google_loginbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </com.google.android.gms.common.SignInButton>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/bigger_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/login_lostpsw"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/txt_tiny"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

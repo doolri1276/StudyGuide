@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">STUDY GUIDE</string>
+    <string name="intro_madeby">made by Naul Snow</string>
+
+    <string name="login_id">ID</string>
+    <string name="login_psw">Password</string>
+    <string name="login_continue">CONTINUE</string>
+    <string name="login_lostpsw">Forgot your password?</string>
+
+    <string name="default_web_client_id">1007396589166-3hrj2fjs932gn58k7tg445799lssrfh5.apps.googleusercontent.com</string>
+
+
+</resources>

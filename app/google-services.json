@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "983625571006",
+    "firebase_url": "https://studyguide-978b4.firebaseio.com",
+    "project_id": "studyguide-978b4",
+    "storage_bucket": "studyguide-978b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983625571006:android:dda33eba232a21a1",
+        "android_client_info": {
+          "package_name": "com.snownaul.studyguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983625571006-47lah5gbbvkb2o7gmuonqjso9h9g7la6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.snownaul.studyguide",
+            "certificate_hash": "f6f362a12505ac13a5d995e5348ff9195055e3b8"
+          }
+        },
+        {
+          "client_id": "983625571006-n7fka9ti2gjc3j74r1epe48o15o41tcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPADD2tFTc2kJuyH2QqP5dJCd1BHfWJPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983625571006-n7fka9ti2gjc3j74r1epe48o15o41tcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

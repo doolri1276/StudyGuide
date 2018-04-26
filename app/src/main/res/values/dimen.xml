@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="normal_padding">16dp</dimen>
+    <dimen name="big_padding">24dp</dimen>
+    <dimen name="bigger_padding">36dp</dimen>
+
+    <dimen name="txt_title">24sp</dimen>
+    <dimen name="txt_stitle">20sp</dimen>
+    <dimen name="txt_text">14sp</dimen>
+
+    <dimen name="txt_tiny">10sp</dimen>
+
+    <dimen name="et_height">48dp</dimen>
+
+    <dimen name="big_icon">48dp</dimen>
+    <dimen name="bigger_icon">56dp</dimen>
+
+
+</resources>
